@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Air Quality Index Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+ 
+</head>
+<body background="/static/images/background.jpg">
+
+<!-- Form-inline -->
+<div  class="input form">
+  <form action="/predict" method="post" id="input head">
+    <h1 id="heading">Air Quality Index Prediction</h1><br><br><br><br>
+    <div class="row">
+      <div class="column">
+        <label for="test">Enter the concentration of PM2.5:</label><br><br>
+        <label for="test">Enter the concentration of NO:</label><br><br>
+        <label for="test">Enter the concentration of NOx:</label><br><br>
+        <label for="test">Enter the concentration of CO:</label><br><br>
+        <label for="test">Enter the concentration of O3:</label><br><br>
+        <label for="test">Enter the concentration of Toluene:</label><br><br>
+      </div>
+      <div class="column">
+        <input type = "text", name="PM2.5", style="width: 100px;" placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="NO", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="NOx", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="CO", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="O3", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="Toluene", style="width: 100px;"placeholder="Enter a value" required><br><br><br><br><br><br><br><br>
+      </div> 
+      <div class="column">
+        <label for="test">Enter the concentration of PM10:</label><br><br>
+        <label for="test">Enter the concentration of NO2:</label><br><br>
+        <label for="test">Enter the concentration of NH3:</label><br><br>
+        <label for="test">Enter the concentration of SO2:</label><br><br>
+        <label for="test">Enter the concentration of Benzene:</label><br><br>
+      </div>
+      <div class="column">
+        <input type = "text", name="PM10", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="NO2", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="NH3", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="SO2", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+        <input type = "text", name="Benzene", style="width: 100px;"placeholder="Enter a value" required><br><br><br>
+      </div>  
+        
+      
+    </div>
+    
+    
+  
+   
+    <button id="submit" type="submit", style='width:100px;margin:0 50%;position:relative;left:-50px;'>Predict</button>
+    
+</body>
+    
+
+    <br>
+  </form>
+ 
+</div>
+   
+
+</html>

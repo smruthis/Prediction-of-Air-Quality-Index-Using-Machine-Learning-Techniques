@@ -1,0 +1,60 @@
+html{width: 100%;height: 100%;overflow: hidden;}
+.input form {  
+    position: absolute;   
+}
+.column {
+    float: left;
+    width: 25%;   
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    text-align: centre;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+}
+label {
+    float: left;
+    margin-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+input {
+    width: 30%;
+}
+
+#heading{
+    color: rgb(20, 69, 144);
+    margin: 20px 450px;
+    position:relative;    
+}
+
+#submit{
+    border:2px;
+    background-color: darkblue;
+    color: white ;
+    font-size: 20px;
+    border-radius:4px;
+    width:100px;
+    height:25px;
+}
+#submit:hover{
+    background-color:lightskyblue;
+    transition: .5s ease-in-out;
+    color:black;
+}
+input[type=text] {
+    float: left;
+    font-size: 15px;
+    font-family: Verdana; 
+    line-height: 10px;
+    align-items: center;
+    
+  }
+img{
+    width: 100%;
+    height:100%
+
+}
