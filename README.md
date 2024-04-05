@@ -1,6 +1,7 @@
 # Prediction-of-Air-Quality-Index-Using-Machine-Learning-Techniques
 
 **INTRODUCTION**
+
 Air pollution is a global problem that affects public health, the environment, and the economy. In India, poor air quality is a particularly pressing issue that impacts millions of people. The goal of this project is to use data science techniques to analyze air quality data in Indian cities and develop insights into the factors that contribute to poor air quality.
 
 The dataset used in this project contains information on air quality in Indian cities. It includes records of Air Quality Index (AQI) values and pollutant levels for the period from 2015 to 2020. The data was collected by the Central Pollution Control Board (CPCB), an Indian government agency responsible for monitoring and controlling pollution levels in the country.
@@ -44,7 +45,9 @@ data to ensure that it is accurate, complete, and relevant for analysis.The foll
 **MODEL BUILDING**
 
 As part of model creation, we have first splitted our dataset mainly to two:
+
 ⦁ Training Set
+
 ⦁ Validation Set
 The training set is again divided into training and testing data.We have splitted the training
 dataset such that training data accounts for 75% of training set and testing data accounts for 25%
