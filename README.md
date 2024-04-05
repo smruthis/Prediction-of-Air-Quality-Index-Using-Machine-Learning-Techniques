@@ -49,6 +49,7 @@ As part of model creation, we have first splitted our dataset mainly to two:
 ⦁ Training Set
 
 ⦁ Validation Set
+
 The training set is again divided into training and testing data.We have splitted the training
 dataset such that training data accounts for 75% of training set and testing data accounts for 25%
 of training set.
