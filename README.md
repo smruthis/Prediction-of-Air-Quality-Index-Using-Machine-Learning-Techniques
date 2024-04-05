@@ -63,6 +63,6 @@ from Random Forest Regressor as 0.909.
 **CODE**: https://github.com/smruthis/Prediction-of-Air-Quality-Index-Using-Machine-Learning-Techniques/blob/main/AQI%20CODE.ipynb
 
 
-FULL PROJECT REPORT: https://drive.google.com/file/d/1PIAk3zEmt8oTcG1hyHpi4O15MpxIBwDA/view?usp=sharing
+**FULL PROJECT REPORT**: https://drive.google.com/file/d/1PIAk3zEmt8oTcG1hyHpi4O15MpxIBwDA/view?usp=sharing
 
 
